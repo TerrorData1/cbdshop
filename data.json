@@ -1,0 +1,89 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Tagada Devs",
+    "image": [
+      "https://example.com/photos/1x1/photo.jpg",
+      "https://example.com/photos/4x3/photo.jpg",
+      "https://example.com/photos/16x9/photo.jpg"
+    ],
+    "description": "Permet une concentration aiguë lors du développement du code",
+    "brand": {
+      "@type": "Brand",
+      "name": "HARIBOOLLEAN"
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Morgan Freeman"
+      },
+      "positiveNotes": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Depuis que je mange ces fraises, j'ai été contacté par la NASA pour coder!!!!"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Thomas Pesquet m'a contacté pour travailler avec lui"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Super fraise"
+          }
+        ]
+      },
+      "negativeNotes": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "No child protection"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Lacking advanced features"
+          }
+        ]
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.4,
+      "reviewCount": 169
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "offerCount": 5,
+      "lowPrice": 119.99,
+      "highPrice": 199.99,
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "FR"
+    },
+    "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 0,
+        "maxValue": 1,
+        "unitCode": "DAY"
+      }
+    }
+  }
+  
